@@ -33,7 +33,4 @@
 
 17.**[ 2, 4, 6 ]** Every element in the array is multiplied by 2 by function doSomething and returned.
 
-19.- 1
-    - 4
-    - 3
-    - 2
+19.1432
