@@ -14,26 +14,26 @@
     - C. student.greeting() 
     - D. student['Favorite Teacher'].name 
     - E. student.courseLoad[0]
-13. A. **'32'** 2 is converted to string and concatenated with '3'.
-    B. **1** 3 is converted to number and become 3-2=1.
-    C. **3** null is converted to number 0 and become 3-0=3.
-    D. **'3null'** null is treated as string and concatenated with '3'.
-    E. **4** true maps to 1 and added to 3.
-    F. **0** false and null both map to 0 and become 0+0=0.
-    G. **'3undefined'** undefined is treated as string and concatenated with '3'.
-    H. **NaN** 3 is converted to number but undefined cannot map to a number, so the result is NaN.
-14. A. **true** 2 is converted to integer and compared with 1.
-    B. **false** Because string comparison checks character by character.'2' is greater than '1'.
-    C. **true** '==' allow type convert.'2' is converted to integer and compared with 2.
-    D. **false** '===' donot allow type convert. '2' is string and 2 is number.
-    E. **false** true is converted to 1 and compared with 2.
-    F. **true** Boolean(2) is true and compared with true.
+13. - A. **'32'** 2 is converted to string and concatenated with '3'.
+    - B. **1** 3 is converted to number and become 3-2=1.
+    - C. **3** null is converted to number 0 and become 3-0=3.
+    - D. **'3null'** null is treated as string and concatenated with '3'.
+    - E. **4** true maps to 1 and added to 3.
+    - F. **0** false and null both map to 0 and become 0+0=0.
+    - G. **'3undefined'** undefined is treated as string and concatenated with '3'.
+    - H. **NaN** 3 is converted to number but undefined cannot map to a number, so the result is NaN.
+14. - A. **true** 2 is converted to integer and compared with 1.
+    - B. **false** Because string comparison checks character by character.'2' is greater than '1'.
+    - C. **true** '==' allow type convert.'2' is converted to integer and compared with 2.
+    - D. **false** '===' donot allow type convert. '2' is string and 2 is number.
+    - E. **false** true is converted to 1 and compared with 2.
+    - F. **true** Boolean(2) is true and compared with true.
 15. '==' compares values after type conversion. 
     '===' compares both value and type without conversion.
 
 17. **[ 2, 4, 6 ]** Every element in the array is multiplied by 2 by function doSomething and returned.
 
-19. 1
-    4
-    3
-    2
+19. - 1
+    - 4
+    - 3
+    - 2
