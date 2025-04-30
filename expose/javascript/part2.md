@@ -9,11 +9,11 @@
 9. It will cause an error which is ReferenceError: i is not defined. Because "let" is block-scoped, so you can not access "i" outside "for" block.
 10. print **3** in the console. There is no error because "length" was declared outside of the loop with "const". It is accessible here.
 11. **[ 50, 100, 150 ]** Although discounted is declared as a const, we are not reassigning the variable itself, only modifying its contents by using push(), which is allowed.
-12. A.student.name  
-    B. student['Grad Year'] 
-    C. student.greeting() 
-    D. student['Favorite Teacher'].name 
-    E. student.courseLoad[0]
+12. - A.student.name  
+    - B. student['Grad Year'] 
+    - C. student.greeting() 
+    - D. student['Favorite Teacher'].name 
+    - E. student.courseLoad[0]
 13. A. **'32'** 2 is converted to string and concatenated with '3'.
     B. **1** 3 is converted to number and become 3-2=1.
     C. **3** null is converted to number 0 and become 3-0=3.
