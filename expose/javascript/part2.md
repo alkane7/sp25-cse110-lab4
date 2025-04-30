@@ -31,9 +31,9 @@
 15. '==' compares values after type conversion. 
     '===' compares both value and type without conversion.
 
-17. **[ 2, 4, 6 ]** Every element in the array is multiplied by 2 by function doSomething and returned.
+17.**[ 2, 4, 6 ]** Every element in the array is multiplied by 2 by function doSomething and returned.
 
-19. - 1
+19.- 1
     - 4
     - 3
     - 2
