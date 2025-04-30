@@ -8,7 +8,7 @@
 8. **[ 50, 100, 150 ]** Because the definition of discounted and line 16 are in the same block, so line 16 can be executed normally and correctly returned. Each price is multiplied by (1 - 0.5), which is 0.5. The results are stored in an array and returned.
 9. It will cause an error which is ReferenceError: i is not defined. Because "let" is block-scoped, so you can not access "i" outside "for" block.
 10. print **3** in the console. There is no error because "length" was declared outside of the loop with "const". It is accessible here.
-11. **[ 50, 100, 150 ]** Each price is multiplied by (1 - 0.5), which is 0.5. The results are stored in an array and returned.
+11. **[ 50, 100, 150 ]** Although discounted is declared as a const, we are not reassigning the variable itself, only modifying its contents by using push(), which is allowed.
 12. A.student.name  
     B. student['Grad Year'] 
     C. student.greeting() 
